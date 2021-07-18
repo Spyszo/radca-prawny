@@ -1,2 +1,2 @@
-# strona-dla-kancelarii
+# Szkolny projekt html + css
  
