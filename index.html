@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <a href="#about" class="a_about">O mnie</a>
+            <a href="#opinions" class="a_opinions">Opinie</a>
+
+            <div href="#" class="title">
+                <div>Szymon Wesołowski</div>
+                <div class="subTitle">
+                    <hr/> <span>Radca Prawny</span> <hr/>
+                </div>
+            </div>
+
+            <a href="#shop" class="a_shop">Sklep</a>
+            <a href="#contact" class="a_contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <div class="mobile-nav" id="mobile-nav">
+        <button onclick="showMenu()" class="mobile-nav-button" id="mobile-nav-button">
+            <div></div>
+            <div></div>
+            <div></div>
+        </button>
+
+        <div id="mobile-nav-items" class="mobile-nav-items">
+            <a onclick="showMenu()" class="a_about" href="#about">O mnie</a>
+            <a onclick="showMenu()" class="a_opinions" href="#opinions">Opinie</a>
+            <a onclick="showMenu()" class="a_shop" href="#">Sklep</a>
+            <a onclick="showMenu()" class="a_contact" href="#">Kontakt</a> 
+        </div>
+    </div>
+
+    <div class="firstPage">
+
+        <div class="cytat">
+            <img src="./img/quote.svg" alt="">
+            <p>Prawnik ze swą teczką może ukraść więcej niż tysiąc ludzi z pistoletami.</p>
+            <p class="author">- Mario Puzo, Ojciec Chrzestny</p>
+        </div>
+    </div>
+
+    <div class="page secondPage" id="about">
+
+        <a href="#about">
+            <div class="moreInfo">
+                <img src="./img/down-arrow.svg" alt="">
+            </div>
+        </a>
+
+        <div class="pageTitle">
+            <div></div>
+            <p>O mnie</p>
+            <div></div>
+        </div>
+
+
+        <div class="aboutMe">
+            <h2>Poznajmy się...</h2>
+            <div>
+                <div class="portrait_box">
+                    <div class="bg"></div>
+                    <div class="portrait"></div>
+                </div>
+                <p> <span>Witaj!</span> <br/><br/>
+                    <span>Nazywam się Szymon Wesołowski. 
+                        Jestem absolwentem Lorem ipsum dolor sit amet. 
+                        Jestem radcą prawnym od ponad XX lat. </span> <br/> <br/>
+                    
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris justo velit, cursus sed mauris ac, vehicula malesuada neque. Donec felis est, viverra quis metus at, suscipit feugiat mi. Integer tincidunt velit nulla, sit amet accumsan eros cursus sit amet. Integer vehicula ullamcorper tellus, eget dictum nisl volutpat a. Mauris vitae cursus dolor. Nunc efficitur pellentesque leo, vel vehicula dui. Aliquam erat volutpat. Curabitur lacinia pretium sagittis.
+
+                    Cras dapibus sapien erat, ut condimentum eros malesuada a. Sed quis odio non lorem dictum sollicitudin. In vel quam et urna varius cursus. Donec suscipit libero eu dapibus molestie. Ut vel dignissim sem, id viverra est. Nulla vel semper metus. Nam ante metus, pulvinar at venenatis sed, finibus non augue.
+                </p>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div>
+                <span class="stats-number" id="stats-num1"></span><br/>
+                <span class="stats-text"> lata doświadczenia</span>
+            </div>
+           
+            <div class="stats-divider"><div class="line"></div></div>
+            
+            <div> 
+                <span class="stats-number" id="stats-num2"></span><br/>
+                <span class="stats-text"> ukończonych spraw</span>
+            
+            </div>
+            <div class="stats-divider"><div class="line horizontal"></div></div>
+            <div class="stats-divider"><div class="line horizontal"></div></div>
+
+            <div>
+                <span class="stats-number" id="stats-num3"></span><br/>
+                <span class="stats-text"> godzin przepracowanych z klientami</span>
+            </div>
+           
+            <div class="stats-divider"><div class="line"></div></div>
+            
+            <div>
+                <span class="stats-number" id="stats-num4"></span><br/>
+                <span class="stats-text">zadowolenych klientów</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page thirdPage" id="opinions">
+        <a href="#opinions">
+            <div class="moreInfo">
+                <img src="./img/down-arrow.svg" alt="">
+            </div>
+        </a>
+
+        <div class="pageTitle">
+            <div></div>
+            <p>Opinie</p>
+            <div></div>
+        </div>
+
+        <div class="reviews">
+            <div class="review">
+                <div class="author">Jan Kowalski</div>
+                <div class="rating" stars=5></div>
+                <div class="date">14-01-2020</div>
+                <div class="text">Fasfhf efef ewtvn oewtdgfw hiewt. Agfwerhgre!</div>
+            </div>
+            <div class="review">
+                <div class="author">Jan Kowalski</div>
+                <div class="rating" stars=4></div>
+                <div class="date">14-01-2020</div>
+                <div class="text">Fasfhf efef ewtvn oewtdgfw hiewt. Agfwerhgre!</div>
+            </div><div class="review">
+                <div class="author">Jan Kowalski</div>
+                <div class="rating" stars=5></div>
+                <div class="date">14-01-2020</div>
+                <div class="text">Fasfhf efef ewtvn oewtdgfw hiewt. Agfwerhgre!</div>
+            </div><div class="review">
+                <div class="author">Jan Kowalski</div>
+                <div class="rating" stars=5></div>
+                <div class="date">14-01-2020</div>
+                <div class="text">Fasfhf efef ewtvn oewtdgfw hiewt. Agfwerhgre!</div>
+            </div><div class="review">
+                <div class="author">Jan Kowalski</div>
+                <div class="rating" stars=3></div>
+                <div class="date">14-01-2020</div>
+                <div class="text">Fasfhf efef ewtvn oewtdgfw hiewt. Agfwerhgre!</div>
+            </div><div class="review">
+                <div class="author">Jan Kowalski</div>
+                <div class="rating" stars=5></div>
+                <div class="date">14-01-2020</div>
+                <div class="text">Fasfhf efef ewtvn oewtdgfw hiewt. Agfwerhgre!</div>
+            </div>
+        </div>
+
+        <div class="add_review">
+            <p>Podziel się swoją opinią. To dla mnie ważne!</p>
+            <button>Dodaj opinię</button>
+        </div>
+    </div>
+
+    <div class="page fourthPage" id="shop">
+        <a href="#shop">
+            <div class="moreInfo">
+                <img src="./img/down-arrow.svg" alt="">
+            </div>
+        </a>
+
+        <div class="pageTitle">
+            <div></div>
+            <p>Sklep</p>
+            <div></div>
+        </div>
+
+
+        <div class="products" style="--product-color: rgb(188, 233, 218)">
+            <div class="product">
+                <div class="product-bookmark" type="new">NOWE</div>
+
+                <div class="product-image"></div>
+                <div class="product-description">
+                    <div class="product-title">
+                        <div class="product-title-main">Odzyskiwanie pieniędzy od komornika</div>
+                        <div class="product-title-second">1 godzina i 57 minut | MP4</div>
+                    </div>
+                    <div class="product-buyLabel">
+                        <div class="product-price">19,99 zł</div>
+                        <button class="product-buyButton">Kup teraz</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product" style="--product-color: rgb(235, 212, 181)">
+                <div class="product-bookmark" type="sale">PROMOCJA</div>
+
+                <div class="product-image"></div>
+                <div class="product-description">
+                    <div class="product-title">
+                        <div class="product-title-main">Podział majątku</div>
+                        <div class="product-title-second">1 godzina i 12 minut | MP4</div>
+                    </div>
+                    <div class="product-buyLabel">
+                        <div class="product-price">31,99 zł</div>
+                        <button class="product-buyButton">Kup teraz</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product" style="--product-color: rgb(206, 181, 223)">
+                <div class="product-image"></div>
+                <div class="product-description">
+                    <div class="product-title">
+                        <div class="product-title-main">Podział majątku - część 2</div>
+                        <div class="product-title-second">1 godzina i 51 minut | MP4</div>
+                    </div>
+                    <div class="product-buyLabel">
+                        <div class="product-price">23,99 zł</div>
+                        <button class="product-buyButton">Kup teraz</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product" style="--product-color: rgb(194, 197, 229)">
+                <div class="product-image"></div>
+                <div class="product-description">
+                    <div class="product-title">
+                        <div class="product-title-main">Podział majątku - część 3</div>
+                        <div class="product-title-second">2 godziny i 5 minut | MP4</div>
+                    </div>
+                    <div class="product-buyLabel">
+                        <div class="product-price">61,99 zł</div>
+                        <button class="product-buyButton">Kup teraz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page fifthPage" id="contact">
+        <a href="#contact">
+            <div class="moreInfo">
+                <img src="./img/down-arrow.svg" alt="">
+            </div>
+        </a>
+
+        <div class="pageTitle">
+            <div></div>
+            <p>Kontakt</p>
+            <div></div>
+        </div>
+
+        <div class="contact">
+            <div class="contact-box">
+                <div class="title">
+                    <img src="./img/email.svg" alt="">
+                    <p>EMAIL</p>
+                </div>
+                <div class="contact-box_address">
+                    <ul>
+                        <li>Kontakt: kontakt@xyz.pl</li>
+                        <li>Współpraca: wspolpraca@xyz.pl</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div class="title">
+                    <img src="./img/phone.svg" alt="">
+                    <p>TELEFON</p>
+                </div>
+                <div class="contact-box_address">
+                    <ul>
+                        <li>+48 795082134</li>
+                        <li>(012) 44 66 780</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-box contact-box--higher">
+                <div class="title">
+                    <img src="./img/pin.svg" alt="">
+                    <p>ADRES</p>
+                </div>
+                <div class="contact-box_address">
+                    <ul>
+                        <li>Szymon Wesołowski</li>
+                        <li>ul. Lipowa 27/5</li>
+                        <li>64-100 Leszno</li>
+                        <li>Wielkopolska</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-box contact-box--higher">
+                <div class="title">
+                    <img src="./img/contact-information.svg" alt="">
+                    <p>KONTAKT</p>
+                </div>
+                <div class="form">
+                    <form action="#">
+                        <textarea name="" id="" rows="5" placeholder="Treść wiadomości"></textarea>
+                        <div class="send_button">
+                            <input type="text" name="email" id="email" placeholder="Adres e-mail">
+                            <button>SEND</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_nav">
+                <ul>
+                    <li>Strona Główna</li>
+                    <li>Opinie</li>
+                    <li>Sklep</li>
+                    <li>Kontakt</li>
+                </ul>
+            </div>
+            <div class="footer_social">
+                <img src="./img/fb_icon.svg" alt="">
+                <img src="./img/yt_icon.svg" alt="">
+            </div>
+            <div class="footer_img"><img src="./img/kirp.svg" alt=""></div>
+        </div>
+    </div>
+
+    <script src="js/countUp.umd.js"></script>
+    <script type="text/javascript">
+
+        const num1 = document.getElementById('stats-num1')
+        const num2 = document.getElementById('stats-num2')
+        const num3 = document.getElementById('stats-num3')
+        const num4 = document.getElementById('stats-num4')
+
+        let animated = false
+        window.addEventListener("scroll", function(){
+            if(window.pageYOffset > 1000 && !animated){
+                animated = true
+                const countUp1 = new countUp.CountUp(num1, 23).start();
+                const countUp2 = new countUp.CountUp(num2, 1234).start();
+                const countUp3 = new countUp.CountUp(num3, 5234).start();
+                const countUp4 = new countUp.CountUp(num4, 99.6, {decimalPlaces: 1}).start();
+            }
+        })
+    </script>
+    
+    <script type="text/javascript">
+        let menuArea = document.getElementById("header");
+        if(window.pageYOffset > 40 && window.innerWidth > 600  && window.innerHeight > 600) {
+            menuArea.classList.add("scroll_header")
+        }
+        window.addEventListener("scroll", function(){
+            let menuArea = document.getElementById("header");
+
+            if(window.pageYOffset > 40 && window.innerWidth > 600  && window.innerHeight > 600) {
+                menuArea.classList.add("scroll_header")
+            }else {
+                menuArea.classList.remove("scroll_header")
+            }
+
+
+            let s1 = document.getElementById('about'),
+                s2 = document.getElementById('opinions'),
+                s3 = document.getElementById('shop'),
+                s4 = document.getElementById('contact');
+
+            let diff  = s1.offsetTop - window.pageYOffset,
+                diff2 = s2.offsetTop - window.pageYOffset, 
+                diff3 = s3.offsetTop - window.pageYOffset,
+                diff4 = s4.offsetTop - window.pageYOffset;
+
+            function deselectAfromNav() {
+                document.getElementsByClassName("a_shop")[0].style.color = ""
+                document.getElementsByClassName("a_shop")[1].style.color = ""
+                document.getElementsByClassName("a_contact")[0].style.color = ""
+                document.getElementsByClassName("a_contact")[1].style.color = ""
+                document.getElementsByClassName("a_about")[0].style.color = ""
+                document.getElementsByClassName("a_about")[1].style.color = ""
+                document.getElementsByClassName("a_opinions")[0].style.color = ""
+                document.getElementsByClassName("a_opinions")[1].style.color = ""
+            }
+
+            if(diff < 200) {
+                if(diff2 < 200) {
+                    if(diff3 < 200) {
+                        if(diff4 < 200) {
+                            deselectAfromNav()
+                            document.getElementsByClassName("a_contact")[0].style.color = "rgb(207, 146, 55)"
+                            document.getElementsByClassName("a_contact")[1].style.color = "rgb(207, 146, 55)"
+                            return
+                        }
+                        deselectAfromNav()
+                        document.getElementsByClassName("a_shop")[0].style.color = "rgb(207, 146, 55)"
+                        document.getElementsByClassName("a_shop")[1].style.color = "rgb(207, 146, 55)"
+                        return
+                    }
+                    deselectAfromNav()
+                    document.getElementsByClassName("a_opinions")[0].style.color = "rgb(207, 146, 55)"
+                    document.getElementsByClassName("a_opinions")[1].style.color = "rgb(207, 146, 55)"
+                    return
+                }
+                deselectAfromNav()
+                document.getElementsByClassName("a_about")[0].style.color = "rgb(207, 146, 55)"
+                document.getElementsByClassName("a_about")[1].style.color = "rgb(207, 146, 55)"
+                return
+            } else {
+                deselectAfromNav()
+            }
+
+        })
+
+        function showMenu() {
+            document.getElementById("mobile-nav").classList.toggle("mobile-nav-show")
+            document.getElementById("mobile-nav-items").classList.toggle("mobile-nav-items-show")
+            document.getElementById("mobile-nav-button").classList.toggle("mobile-nav-button-active")
+           
+            if(document.body.style.overflow == "hidden") {
+                document.body.style.overflow = "auto";
+            } else {
+                document.body.style.overflow = "hidden"
+            }
+        }
+    </script>
+
+</body>
+</html>
