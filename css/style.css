@@ -820,6 +820,7 @@ header nav .title hr {
     overflow: hidden;
     background-color: rgb(34, 35, 37);
     box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05), 0 3px 6px rgba(0, 0, 0, 0.10);
+    padding: 20px;
 }
 
 .form h2 {
@@ -845,8 +846,7 @@ form {
 }
 
 form textarea {
-    max-width: 330px;
-    width: calc(100% - 70px);
+    width: calc(100% - 40px);
     height: 250px;
     border: none;
     margin-bottom: 20px;
@@ -855,7 +855,6 @@ form textarea {
     font-size: 18px;
     background-color: rgb(50, 52, 59);
     color: white;
-    margin: 20px;
     font-size: 1em;
 }
 
@@ -865,17 +864,14 @@ form textarea::placeholder {
 
 form .send_button {
     position: relative;
-    width: fit-content;
+    width: 100%;
 }
 
 form .send_button input {
-    max-width: 250px;
-    width: calc(100% - 80px);
-    margin: 20px;
-    margin-right: 50px;
+    width: calc(100% - 100px);
     height: 60px;
     border: none;
-    padding: 0 0 0 20px;
+    padding: 0 40px 0 20px;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
     font-size: 18px;
     background-color: rgb(50, 52, 59);
@@ -888,7 +884,7 @@ form .send_button input::placeholder {
 
 form .send_button button {
     position: absolute;
-    right: -10px;
+    right: 0px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 1em;
